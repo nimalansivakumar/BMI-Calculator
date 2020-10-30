@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="img\bmi.png" rel="icon">
+</head>
+<body>
+    <header>
+        BMI Calculator
+    </header>
+   <section class="main">
+        <div class="input-field">
+            <label class="label">HEIGHT:</label>
+            <input class="height-input" id="height" placeholder="in cms" type="number">
+            <label class="label">WEIGHT:</label>
+            <input class="weight-input" id="weight" placeholder="in kgs" type="number">
+            <button class="button" id="btn">Calculate BMI</button>
+        </div>
+   </section>
+   <section class="result-field">
+       <p class="result" id="hei">Height:0</p>
+       <p class="result" id="wei">weight:0</p>
+       <p class="result-1 result" id="result-1">Stay Healthy</p>
+       <p class="result-2 result" id="result-2">Calculate your BMI here!</p>
+       <img class="img-result" id="img-result" src="img\diet.png">
+   </section>
+   <footer>
+       Designed By Nimalan with ❤️
+   </footer>
+</body>
+<script src="app.js"></script>
+</html>
